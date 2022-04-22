@@ -78,7 +78,7 @@ li {
   height: 700px;
 
   /*グラデーション*/
-  background: linear-gradient(120deg, rgba(26, 42, 108, 0.3) 33.3%, rgba(178, 31, 31, 0.3) 0, rgba(178, 31, 31, 0.3) 66.0%, rgba(253, 187, 45, 0.3) 0), url(/Users/TY_MB/Desktop/my_portfolio/img/top.png); 
+  background: linear-gradient(120deg, rgba(26, 42, 108, 0.3) 33.3%, rgba(178, 31, 31, 0.3) 0, rgba(178, 31, 31, 0.3) 66.0%, rgba(253, 187, 45, 0.3) 0), url(../img/top.png); 
   background-repeat: no-repeat;
   background-position: 50% 10%;
   background-size: cover;
@@ -114,7 +114,7 @@ li {
 }
 
 .inner1 {
-  background-image: url(/Users/TY_MB/Desktop/my_portfolio/img/about.png);
+  background-image: url(../img/about.png);
   background-repeat: no-repeat;
   background-position: 50% 10%;
   background-size: cover;
@@ -148,33 +148,17 @@ li {
 }
 
 .introducions {
-  margin: 30px 30%;
+  margin: 30px 10%;
 }
 
-.introduce_content1 {
+.introduce_content {
   border: #333 solid 2px;
-  margin: 10px 20px;
-  background-color: #fff;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
-}
-
-.introduce_title1 {
-  text-align: center;
-  font-weight: bold;
-  font-size: 25px;
-  background: rgb(14, 31, 57);
-  color: #ffffff;
-}
-
-.introduce_content2 {
-  border: #333 solid 2px;
-  margin: 3% 20%;
   text-align: center;
   background-color: #fff;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
 }
 
-.introduce_title2 {
+.introduce_title {
   text-align: center;
   font-weight: bold;
   font-size: 30px;
@@ -187,9 +171,9 @@ li {
 /*SKILL*/
 .inner2 {
   padding-bottom: 10%;
-  background-image: url(/Users/TY_MB/Desktop/my_portfolio/img/skill.png);
+  background-image: url(../img/skill.png);
   background-repeat: no-repeat;
-  background-position: 50% 10%;
+  background-position: 90%;
   background-size: cover;
 }
 
@@ -205,15 +189,11 @@ li {
 .skill_list {
   background-color: #fff;
   padding: 3%;
+  text-align: center;
 }
 
 .skill_item {
-  display: flex;
   margin-bottom: 50px;
-}
-
-.skill_img {
-  margin-right: 20px;
 }
 
 .skill_img img {
@@ -272,7 +252,9 @@ li {
   color: rgb(0, 0, 0);
 }
 
-
+.skill_body h3 {
+  font-size: 30px;
+}
 
 .contact_list2 {
   text-align: center;
