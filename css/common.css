@@ -1,0 +1,308 @@
+@charset "UTF-8";
+
+
+/*共通*/
+body {
+  font-size: 15px;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  word-break: break-all;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #1ca9e3;
+}
+
+.font1 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: #fff;
+  margin-bottom: 60px;
+  background-color: #223048;
+}
+
+.font4 {
+  width: 85%;
+  margin: 10px auto;
+  font-size: 17px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/*ヘッダー*/
+li {
+  list-style: none;
+}
+
+.nav_all {
+  width: 100%;
+  position: fixed;
+  background-color: #0e1f39;
+  box-shadow: 0 3px 3px 0 rgb(0 0 0 / 20%);
+}
+
+.nav_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_item {
+  font-size: 18px;
+  padding: 0 24px;
+}
+
+.nav_link {
+  display: inline-block;
+  padding: 20px 0;
+  color: #f7f7f7;
+  font-weight: bold;
+}
+
+.nav_link:hover {
+  color: #16b5f4;
+}
+
+/*トップ*/
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 700px;
+
+  /*グラデーション*/
+  background: linear-gradient(120deg, rgba(26, 42, 108, 0.3) 33.3%, rgba(178, 31, 31, 0.3) 0, rgba(178, 31, 31, 0.3) 66.0%, rgba(253, 187, 45, 0.3) 0), url(/Users/TY_MB/Desktop/my_portfolio/img/top.png); 
+  background-repeat: no-repeat;
+  background-position: 50% 10%;
+  background-size: cover;
+}
+
+.top_titles {
+  display: inline-block;
+  background-color: #223048;
+  padding: 0 30px 10px;
+}
+
+.top_title {
+  font-size: 60px;
+  font-weight: bold; color: #fff;
+  letter-spacing: 5px;
+}
+
+.top_subtitle {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 5px;
+}
+
+/*ABOUT*/
+
+.section {
+  padding: 120px 0;
+}
+
+.section:nth-of-type(odd) {
+  background-color: #f7f7f7;
+}
+
+.inner1 {
+  background-image: url(/Users/TY_MB/Desktop/my_portfolio/img/about.png);
+  background-repeat: no-repeat;
+  background-position: 50% 10%;
+  background-size: cover;
+  padding-bottom: 30px;
+}
+
+.name {
+  background-color: #fff;
+  margin: 0 20%;
+  border: #223048 solid 2px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+}
+
+.font3_1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.font2_1 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.about_img {
+  display: block;
+  width: 40%;
+  margin: 0 auto 30px;
+  border-radius: 10%;
+}
+
+.introducions {
+  margin: 30px 30%;
+}
+
+.introduce_content1 {
+  border: #333 solid 2px;
+  margin: 10px 20px;
+  background-color: #fff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+}
+
+.introduce_title1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  background: rgb(14, 31, 57);
+  color: #ffffff;
+}
+
+.introduce_content2 {
+  border: #333 solid 2px;
+  margin: 3% 20%;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+}
+
+.introduce_title2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  background: rgb(14, 31, 57);
+  color: #ffffff;
+
+}
+
+
+/*SKILL*/
+.inner2 {
+  padding-bottom: 10%;
+  background-image: url(/Users/TY_MB/Desktop/my_portfolio/img/skill.png);
+  background-repeat: no-repeat;
+  background-position: 50% 10%;
+  background-size: cover;
+}
+
+.font2_2 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #fff;
+  margin-top: 10%;
+  padding-top: 20px;
+}
+
+.skill_list {
+  background-color: #fff;
+  padding: 3%;
+}
+
+.skill_item {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.skill_img {
+  margin-right: 20px;
+}
+
+.skill_img img {
+  width: 60px;
+}
+
+
+/*WORKS*/
+.font2_3 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.work_all {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.work_item {
+  flex: 32%;
+  margin-right: 2%;
+}
+
+.work_item:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+.work_item a img {
+  width: 100%;
+}
+
+.work_body p {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 6px;
+}
+
+/*CONTACT*/
+
+.contact_list {
+  text-align: center;
+}
+
+.contact_list li {
+  list-style: none;
+}
+
+.contact_twitter {
+  font-size: 25px;
+}
+
+.contact_twitter:hover {
+  color: rgb(0, 0, 0);
+}
+
+
+
+.contact_list2 {
+  text-align: center;
+  margin-top: 55px;
+}
+
+.mail_icon {
+  width: 115px;
+}
+
+.contact_mail {
+  font-size: 25px;
+}
+
+.contact_mail:hover {
+  color: rgb(0, 0, 0);
+}
+
+/*FOOTER*/
+
+.bottom {
+  background-color: #333;
+}
+
+.bottom .inner {
+  padding: 30px;
+}
+
+.copyright {
+  font-size: 13px;
+  text-align: center;
+  color: #fff;
+}
